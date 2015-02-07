@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Turn checkboxes and radio buttons in toggle switches.">
+    <meta name="author" content="Mattia Larentis, Emanuele Marchi and Peter Stein">
+    <title>Bootstrap Switch · Turn checkboxes and radio buttons in toggle switches</title>
+    <link href="docs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="docs/css/highlight.css" rel="stylesheet">
+    <link href="dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/assets/css/docs.min.css" rel="stylesheet">
+    <link href="docs/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="docs/css/holo.css">
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-43092768-1']);
+      _gaq.push(['_trackPageview']);
+      (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script type="text/javascript">
+ 
+$(document).ready(function(){
+ 
+        $(".productDescription").hide();
+        $(".show_hide").show();
+ 
+    $('.show_hide').click(function(){
+    $(".productDescription").slideToggle();
+    return false;
+    });
+ 
+});
+ 
+</script>
+    <style>
+      .Sidebar {
+        position: fixed;
+height: 132px;
+left: 0;
+top: 3px;
+width: 24px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+        <div>
+    <div class="col-sm-12">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="affix-bottom" data-spy="affix" data-offset-top="3" data-offset-bottom="90">
+            <ul class="nav Sidebar" id="sidebar-nav">
+              <li><a href="#TOP">Home</a></li>
+              <li><a href="#alexandria">Alexandria</a></li>
+              <li><a href="#angel">Angel</a></li>
+              <li><a href="#anniston">Anniston</a></li>
+              <li><a href="#bigOak">Big Oak</a></li>
+              <li><a href="#countyStaging">County Staging</a></li>
+              <li><a href="#eastaboga">Eastaboga</a></li>
+              <li><a href="#hobsonCity">Hobson City</a></li>
+              <li><a href="#acksonville">Jacksonville</a></li>
+              <li><a href="#knightensCrossroads">Knightens Crossroads</a></li>
+              <li><a href="#mountOlive">Mount Olive</a></li>
+              <li><a href="#ohatchee">Ohatchee</a></li>
+              <li><a href="#oxford">Oxford</a></li>
+              <li><a href="#piedmont">Piedmont</a></li>
+              <li><a href="#quadCities">Quad Cities</a></li>
+              <li><a href="#weaver">Weaver</a></li>
+              <li><a href="#webstersChapel">Webster's Chapel</a></li>
+              <li><a href="#whitePlains">White Plains</a></li>
+            </ul>
+           </div>
+        </div>
+    
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
+          
+          <div class="row">
+           <div class="col-sm-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading" id="TOP"><h4>Staging Areas</h4></div>
+                    <div class="panel-body">
+                      <div class="list-group">
+                        <a id="alexandria">Alexandria</a>
+                        <a href="#" class="list-group-item"><input type="radio" name="alexandria" data-radio-all-off="true">  Foodland Parking Lot/Valley Machine</a>
+                        <a href="#" class="list-group-item"><input type="radio" name='alexandria' data-radio-all-off="true" > Mount Zion Chuch</a>
+                        <a id="angel">Angel</a>
+                        <a href="#" class="list-group-item"><input type="radio" name='angel' data-radio-all-off="true"> Angel Grove Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name='angel' data-radio-all-off="true"> Duke School (Calhoun Co Adult Training Center)</a>
+                        <a id="anniston">Anniston</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Anniston Acquatic &amp; Fitness Center</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Lot across Lowes</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Lowes Parking Lot</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Old Food World Location</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Piggly Wiggly</a>
+                        <a id="bigOak">Big Oak</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Bethel Methodist Church</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Fedex Freight Facility</a> 
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Hebron Baptist Church</a>
+                        <a id="countyStaging">County Staging</a> 
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Calhoun County Highway Dept</a> 
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Civil Defense Logistics Center</a>
+                        <a id="eastaboga">Eastaboga</a> 
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Eastaboga Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Plum Springs Baptist Church</a>
+                        <a id="hobsonCity">Hobson City</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Hobson City Hall</a>
+                        <a id="jacksonville">Jacksonville</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Pete Mathews Coliseum</a> 
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Walmart parking lot</a>
+                        <a id="knightensCrossroads">Knightens Crossroads</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Williams Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> VFD ST. 1</a>
+                        <a id="mountOlive">Mount Olive</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Mount Olive Baptist Church</a> 
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Ragan Chapel Church</a>
+                        <a id="ohatchee">Ohatchee</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Boiling Springs Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Jack's Parking Lot</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Oak Bowery Baptist Church</a>
+                        <a id="oxford">Oxford</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Coldwater Winn Dixie</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Oxford Exchange Shopping Center</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Quintard Mall</a>
+                        <a id="piedmont">Piedmont</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Bingo Hall</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Piedmont Sports Complex</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Asberry Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Veteran's Memorial Park</a>
+                        <a id="quadCities">Quad Cities</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Iron City BC</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Quad Cities VFD Station #1</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Quad Cities VFD Station #2</a>
+                        <a id="weaver">Weaver</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Weaver Elementary School</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Weaver High School </a>
+                        <a id="webstersChapel">Webster's Chapel</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Oak Grove Church </a>
+                        <a id="whitePlains">White Plains</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Dugger Mountain Music Hall</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Nances Creek Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Rabbittown Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> White Plains Elementary School</a>
+                        <a href="#" class="list-group-item"><input type="checkbox" name=''> White Plains High School</a>
+                      </div>
+                    </div>
+                </div>
+             
+                <div class="well"> 
+                     <form class="form-horizontal" role="form">
+                      <h4>What's New</h4>
+                       <div class="form-group" style="padding:14px;">
+                        <textarea class="form-control" placeholder="Update your status"></textarea>
+                      </div>
+                      
+                       <button class="btn btn-success pull-right" type="button">Post</button><ul class="list-inline"><li><a href="#"><i class="glyphicon glyphicon-align-left"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-center"></i></a></li><li><a href="#"><i class="glyphicon glyphicon-align-right"></i></a></li></ul>
+                    </form>
+                </div>
+             
+                <div class="panel panel-default">
+                   <div class="panel-heading"><a href="#" class="pull-right">View all</a> <h4>Responsive Design</h4></div>
+                    <div class="panel-body">
+                      <p><img src="assets/img/100.gif" class="img-circle pull-right"> <a href="#">Bootstrap Playground</a></p>
+                      <div class="clearfix"></div>
+                      <hr>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                      Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                      dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                      Aliquam in felis sit amet augue.
+                      <hr>
+                      <div class="btn-group pull-right btn-toggle"> 
+                        <button class="btn btn-default">ON</button>
+                        <button class="btn btn-primary active">OFF</button>
+                      </div>  
+                      
+                    </div>
+                 </div>
+        
+            </div>
+          </div><!--/row-->
+</div>
+
+
+            <div id="push"></div>
+        
+        <script type="text/javascript" async="" src="assets/js/quant.js"></script>
+    </script><script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        
+        <script type="text/javascript">
+        
+        $(document).ready(function() {
+            $('[data-toggle=offcanvas]').click(function() {
+        $('.row-offcanvas').toggleClass('active');
+      });
+        
+      $('.btn-toggle').click(function() {
+        $(this).find('.btn').toggleClass('active').toggleClass('btn-default').toggleClass('btn-primary');
+      });
+        });
+        
+        </script>
+        
+    
+</body>
+    <script src="docs/js/quant.js"></script>
+    <script src="docs/js/jquery.min.js"></script>
+    <script src="docs/js/bootstrap.min.js"></script>
+    <script src="docs/js/highlight.js"></script>
+    <script src="dist/js/bootstrap-switch.js"></script>
+    <script src="docs/js/main.js"></script>
+  </body>
+</html>
