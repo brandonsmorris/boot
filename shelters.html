@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Turn radioes and radio buttons in toggle switches.">
+    <meta name="author" content="Mattia Larentis, Emanuele Marchi and Peter Stein">
+    <title>Calhoun County</title>
+    <link href="docs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="docs/css/highlight.css" rel="stylesheet">
+    <link href="dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/assets/css/docs.min.css" rel="stylesheet">
+    <link href="docs/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="docs/css/holo.css">
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-43092768-1']);
+      _gaq.push(['_trackPageview']);
+      (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <script type="text/javascript">
+ 
+$(document).ready(function(){
+ 
+        $(".productDescription").hide();
+        $(".show_hide").show();
+ 
+    $('.show_hide').click(function(){
+    $(".productDescription").slideToggle();
+    return false;
+    });
+ 
+});
+ 
+</script>
+    <style>
+      .Sidebar {
+        position: fixed;
+height: 132px;
+left: 0;
+top: 3px;
+width: 24px;
+      }
+    </style>
+  </head>
+  <body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand">Calhoun County</a>
+</div>
+<ul class="nav navbar-nav">
+  <li><a href="index.html">Staging Areas</a></li>
+  <li><a href="shelters.html">Shelters</a></li>
+</ul>
+</div>
+  <div class="page-container">
+    <div class="col-sm-12">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="affix-bottom" data-spy="affix" data-offset-top="45" data-offset-bottom="90">
+            <ul class="nav Sidebar" id="sidebar-nav">
+              <li><a href=""></a></li>
+              <li><a href="#TOP">Home</a></li>
+              <li><a href="#anniston">Anniston</a></li>
+              <li><a href="#eastaboga">Eastaboga</a></li>
+              <li><a href="#hobsonCity">Hobson City</a></li>
+              <li><a href="#jacksonville">Jacksonville</a></li>
+              <li><a href="#ohatchee">Ohatchee</a></li>
+              <li><a href="#oxford">Oxford</a></li>
+              <li><a href="#piedmont">Piedmont</a></li>
+              <li><a href="#weaver">Weaver</a></li>
+              <li><a href="#whitePlains">White Plains</a></li>
+            </ul>
+           </div>
+        </div>
+    
+        <!-- main area -->
+        <div class="col-xs-12 col-sm-9" data-spy="scroll" data-target="#sidebar-nav">
+          
+          <div class="row">
+           <div class="col-sm-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading" id="TOP"><h4>Shelters</h4></div>
+                    <div class="panel-body">
+                      <div class="list-group">
+                        <a class="bold" id="anniston">Anniston</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">1st Baptist Church of Saks</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Anniston High School</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Anniston Middle School</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Carver Communtity</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Cobb Elementary School</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Constantine Early Head Start</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Constantine Elementary School</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Cornerstone Church</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">First Presbyterian Church</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">First United Methodist Church of Saks</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Glen Addie Community Church</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Golden Springs Community Center</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Greenbrier Church of Christ</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Greenbrier Road Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Hillcrest Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Lenlock Community Center</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Salvation Army</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">South Highland Multi-Service Center</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Tenth Street Elementary School</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Truman Gym</a>
+                        <a class="list-group-item"><input type="radio" name="anniston" data-radio-all-off="true">Wiggins Community Center</a>
+                        <a class="bold" id="eastaboga">Eastaboga</a>
+                        <a class="list-group-item"><input type="radio" name="eastaboga" data-radio-all-off="true">Eastaboga Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="eastaboga" data-radio-all-off="true">Plum Springs Baptist Church</a>
+                        <a class="bold" id="hobsonCity">Hobson City</a>
+                        <a class="list-group-item"><input type="radio" name="hobsonCity">Hobson City Hall</a>
+                        <a class="bold" id="jacksonville">Jacksonville</a>
+                        <a class="list-group-item"><input type="radio" name="jacksonville">Communtity Center</a>
+                        <a class="list-group-item"><input type="radio" name="jacksonville">First Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="jacksonville">Nances Creek Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="jacksonville">Stewart Hall</a>
+                        <a class="bold" id="ohatchee">Ohatchee</a>
+                        <a class="list-group-item"><input type="radio" name="ohatchee">Oak Bowery Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="ohatchee">Ten Island Baptist Church</a>
+                        <a class="bold" id="oxford">Oxford</a>
+                        <a class="list-group-item"><input type="radio" name="oxford">1<sup>st</sup> Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="oxford">Bynum Community Center</a>
+                        <a class="list-group-item"><input type="radio" name="oxford">Civic Center</a>
+                        <a class="list-group-item"><input type="radio" name="oxford">Friendship Community Center</a>
+                        <a class="list-group-item"><input type="radio" name="oxford">Grace Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="oxford">Meadowbrook Baptist Church</a>
+                        <a class="list-group-item"><input type="radio" name="oxford">Trinity Baptist Church</a>
+                        <a class="bold" id="piedmont">Piedmont</a>
+                        <a class="list-group-item"><input type="radio" name="piedmont">Piedmont Civic Center</a>
+                        <a class="bold" id="weaver">Weaver</a>
+                        <a class="list-group-item"><input type="radio" name="weaver">Rock of Ages Baptist Church</a>
+                        <a class="bold" id="whitePlains">White Plains</a>
+                        <a class="list-group-item"><input type="radio" name="whitePlains">White Plains Baptist Church</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div><!--/row-->
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+            <div id="push"></div>
+        
+        <script type="text/javascript" async="" src="assets/js/quant.js"></script>
+    </script><script type="text/javascript" src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+        
+        <script type="text/javascript">
+        
+        $(document).ready(function() {
+            $('[data-toggle=offcanvas]').click(function() {
+        $('.row-offcanvas').toggleClass('active');
+      });
+        
+      $('.btn-toggle').click(function() {
+        $(this).find('.btn').toggleClass('active').toggleClass('btn-default').toggleClass('btn-primary');
+      });
+        });
+        
+        </script>
+        
+    
+</body>
+    <script src="docs/js/quant.js"></script>
+    <script src="docs/js/jquery.min.js"></script>
+    <script src="docs/js/bootstrap.min.js"></script>
+    <script src="docs/js/highlight.js"></script>
+    <script src="dist/js/bootstrap-switch.js"></script>
+    <script src="docs/js/main.js"></script>
+  </body>
+</html>

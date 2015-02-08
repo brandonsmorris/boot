@@ -1,0 +1,41 @@
+Anniston - 1st Baptist Church of Saks 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Anniston High School 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Anniston Middle School 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Carver Community Center 	CLOSED  		 	 	0 	0 	0	Select	Update
+Map Anniston - Cobb Elementary School 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Constantine Early Head Start 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Constantine Elementary School 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Cornerstone Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - First Presbyterian Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - First United Methodist Church of Saks 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Glen Addie Community Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Golden Springs Community Center 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Greenbrier Church of Christ 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Greenbrier Road Baptist Church 	CLOSED  		 	 	172 	0 	172	Select	Update
+Map Anniston - Hillcrest Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Lenlock Community Center 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Mt. Olive Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Salvation Army (Redshield Lodge) 	CLOSED  	 	 	 	20 	0 	20	Select	Update
+Map Anniston - South Highland Multi-Service Center 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Tenth Street Elementary School 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Truman Gym 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Anniston - Wiggins Community Center 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Eastaboga - Eastaboga Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Eastaboga - Plum Springs Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Hobson City - Hobson City Hall 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Jacksonville - Community Center 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Jacksonville - First Baptist Church 	CLOSED  	 	 	 	30 	0 	30	Select	Update
+Map Jacksonville - Nances Creek Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Jacksonville State Univ. - Stewart Hall 	CLOSED  		 	 	0 	0 	0	Select	Update
+Map Ohatchee - Oak Bowery Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Ohatchee - Ten Island Baptist Church 	CLOSED  		 	 	100 	0 	100	Select	Update
+Map Oxford - !st Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Oxford - Bynum Community Center  	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Oxford - Civic Center 	CLOSED  				24 	2 	22	Select	Update
+Map Oxford - Friendship Community Center 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Oxford - Grace Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Oxford - Meadowbrook Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Oxford - Trinity Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Piedmont - Piedmont Civic Center  	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map Weaver - Rock of Ages Baptist Church 	CLOSED  	 	 	 	0 	0 	0	Select	Update
+Map White Plains - White Plains Baptist Church 

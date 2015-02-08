@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Turn checkboxes and radio buttons in toggle switches.">
+    <meta name="description" content="Turn radioes and radio buttons in toggle switches.">
     <meta name="author" content="Mattia Larentis, Emanuele Marchi and Peter Stein">
-    <title>Bootstrap Switch · Turn checkboxes and radio buttons in toggle switches</title>
+    <title>Bootstrap Switch · Turn radioes and radio buttons in toggle switches</title>
     <link href="docs/css/bootstrap.min.css" rel="stylesheet">
     <link href="docs/css/highlight.css" rel="stylesheet">
     <link href="dist/css/bootstrap3/bootstrap-switch.css" rel="stylesheet">
@@ -53,14 +53,27 @@ width: 24px;
     </style>
   </head>
   <body>
-
-        <div>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand">Calhoun County</a>
+</div>
+<ul class="nav navbar-nav">
+  <li><a href="index.html">Staging Areas</a></li>
+  <li><a href="shelters.html">Shelters</a></li>
+</ul>
+</div>
+  <div class="page-container">
     <div class="col-sm-12">
       <div class="row row-offcanvas row-offcanvas-left">
         
         <!-- sidebar -->
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="affix-bottom" data-spy="affix" data-offset-top="3" data-offset-bottom="90">
+          <div class="affix-bottom" data-spy="affix" data-offset-top="45" data-offset-bottom="90">
             <ul class="nav Sidebar" id="sidebar-nav">
               <li><a href="#TOP">Home</a></li>
               <li><a href="#alexandria">Alexandria</a></li>
@@ -100,66 +113,71 @@ width: 24px;
                         <a href="#" class="list-group-item"><input type="radio" name='angel' data-radio-all-off="true"> Angel Grove Baptist Church</a>
                         <a href="#" class="list-group-item"><input type="radio" name='angel' data-radio-all-off="true"> Duke School (Calhoun Co Adult Training Center)</a>
                         <a id="anniston">Anniston</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Anniston Acquatic &amp; Fitness Center</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Lot across Lowes</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Lowes Parking Lot</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Old Food World Location</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Piggly Wiggly</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Anniston Acquatic &amp; Fitness Center</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Lot across Lowes</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Lowes Parking Lot</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Old Food World Location</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Piggly Wiggly</a>
                         <a id="bigOak">Big Oak</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Bethel Methodist Church</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Fedex Freight Facility</a> 
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Hebron Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Bethel Methodist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Fedex Freight Facility</a> 
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Hebron Baptist Church</a>
                         <a id="countyStaging">County Staging</a> 
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Calhoun County Highway Dept</a> 
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Civil Defense Logistics Center</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Calhoun County Highway Dept</a> 
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Civil Defense Logistics Center</a>
                         <a id="eastaboga">Eastaboga</a> 
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Eastaboga Baptist Church</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Plum Springs Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Eastaboga Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Plum Springs Baptist Church</a>
                         <a id="hobsonCity">Hobson City</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Hobson City Hall</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Hobson City Hall</a>
                         <a id="jacksonville">Jacksonville</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Pete Mathews Coliseum</a> 
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Walmart parking lot</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Pete Mathews Coliseum</a> 
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Walmart parking lot</a>
                         <a id="knightensCrossroads">Knightens Crossroads</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Williams Baptist Church</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> VFD ST. 1</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Williams Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> VFD ST. 1</a>
                         <a id="mountOlive">Mount Olive</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Mount Olive Baptist Church</a> 
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Ragan Chapel Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Mount Olive Baptist Church</a> 
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Ragan Chapel Church</a>
                         <a id="ohatchee">Ohatchee</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Boiling Springs Baptist Church</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Jack's Parking Lot</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Oak Bowery Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Boiling Springs Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Jack's Parking Lot</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Oak Bowery Baptist Church</a>
                         <a id="oxford">Oxford</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Coldwater Winn Dixie</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Oxford Exchange Shopping Center</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Quintard Mall</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Coldwater Winn Dixie</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Oxford Exchange Shopping Center</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Quintard Mall</a>
                         <a id="piedmont">Piedmont</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Bingo Hall</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Piedmont Sports Complex</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Asberry Baptist Church</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Veteran's Memorial Park</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Bingo Hall</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Piedmont Sports Complex</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Asberry Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Veteran's Memorial Park</a>
                         <a id="quadCities">Quad Cities</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Iron City BC</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Quad Cities VFD Station #1</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Quad Cities VFD Station #2</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Iron City BC</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Quad Cities VFD Station #1</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Quad Cities VFD Station #2</a>
                         <a id="weaver">Weaver</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Weaver Elementary School</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Weaver High School </a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Weaver Elementary School</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Weaver High School </a>
                         <a id="webstersChapel">Webster's Chapel</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Oak Grove Church </a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Oak Grove Church </a>
                         <a id="whitePlains">White Plains</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Dugger Mountain Music Hall</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Nances Creek Baptist Church</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> Rabbittown Baptist Church</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> White Plains Elementary School</a>
-                        <a href="#" class="list-group-item"><input type="checkbox" name=''> White Plains High School</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Dugger Mountain Music Hall</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Nances Creek Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> Rabbittown Baptist Church</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> White Plains Elementary School</a>
+                        <a href="#" class="list-group-item"><input type="radio" name=''> White Plains High School</a>
                       </div>
                     </div>
                 </div>
             </div>
           </div><!--/row-->
 </div>
+</div>
+</div>
+</div>
+
+
 
 
             <div id="push"></div>
